@@ -2,13 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog for Devs with MDX`,
     author: {
-      name: `Anna Rossetti`,
-      summary: `who lives and works in England building whimsical things.`,
+      name: `Daniel de Mello`,
+      summary: `who is from Brazil, lives and works in San Francisco building fun things.`,
     },
-    description: `A starter blog demonstrating what Gatsby and MDX can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `daniel's blog`,
+    siteUrl: `https://dandemello.blog`,
     social: {
-      twitter: `rossettiquette`,
+      twitter: `dandemello`,
     },
   },
   plugins: [
@@ -112,13 +112,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Dev Blog with MDX`,
-        short_name: `GatsbyMDX`,
+        name: `daniel's blog`,
+        short_name: `dansblog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#1871ed`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/rocket-microsoft.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
