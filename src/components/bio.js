@@ -37,8 +37,8 @@ const Bio = () => {
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
         src="../images/ppicblack.jpeg"
-        width={60}
-        height={60}
+        width={50}
+        height={50}
         quality={95}
         alt="Profile picture"
       />
@@ -47,10 +47,12 @@ const Bio = () => {
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should get in touch on Twitter!
+            You can find me on Twitter.
           </a>
+          {` `} I send my content through a newsletter, please subscribe! 
         </p>
       )}
+      <script async data-uid="b21a83232b" src="https://marvelous-motivator-2323.ck.page/b21a83232b/index.js"></script>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog for Devs with MDX`,
+    title: `daniel's blog`,
     author: {
       name: `Daniel de Mello`,
       summary: `who is from Brazil, lives and works in San Francisco building fun things.`,
@@ -51,12 +51,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+    trackingId: `G-KRZMH41512`,
+    },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {

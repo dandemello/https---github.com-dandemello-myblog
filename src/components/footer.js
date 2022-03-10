@@ -6,9 +6,6 @@ const Footer = () => {
     query FooterQuery {
       site {
         siteMetadata {
-          author {
-            name
-          }
           social {
             twitter
           }
@@ -21,7 +18,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        ©{author.name}, {new Date().getFullYear()}
+        @dandemello, {new Date().getFullYear()}
       </div>      
     </footer>
   )
