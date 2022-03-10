@@ -47,12 +47,11 @@ const Bio = () => {
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You can find me on Twitter.
+            You can find him on Twitter.
           </a>
           {` `} I send my content through a newsletter, please subscribe! 
         </p>
       )}
-      <script async data-uid="b21a83232b" src="https://marvelous-motivator-2323.ck.page/b21a83232b/index.js"></script>
     </div>
   )
 }
