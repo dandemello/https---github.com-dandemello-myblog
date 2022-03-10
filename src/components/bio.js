@@ -52,10 +52,7 @@ const Bio = () => {
           {` `} I send my content through a newsletter, please subscribe! 
         </p>    
         
-      )}
-      <p>
-      <script async data-uid="b21a83232b" src="https://marvelous-motivator-2323.ck.page/b21a83232b/index.js"></script>
-      </p>
+      )}          
     </div>
   )
 }
