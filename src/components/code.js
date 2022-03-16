@@ -2,6 +2,7 @@ import React from "react"
 import Highlight, { defaultProps } from "prism-react-renderer"
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live"
 import theme from "prism-react-renderer/themes/okaidia"
+import { snakeCase } from "lodash"
 
 const copyToClipboard = str => {
   const el = document.createElement("textarea")
@@ -31,7 +32,7 @@ const Button = props => (
       cursor: "pointer",
       color: "#E2E8F0",
       fontSize: "14px",
-      fontFamily: "sans-serif",
+      fontFamily: "IBM Plex sans",
       lineHeight: "1",
     }}
     {...props}
@@ -75,7 +76,7 @@ const FileRibbon = props => (
       fontSize: "13px",
       textTransform: "lowercase",
       fontWeight: "500",
-      fontFamily: "sans-serif",
+      fontFamily: "IBM Plex Sans",
       fontStyle: "italic",
       lineHeight: "1",
     }}
