@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { graphql } from 'gatsby';
-import Img from "gatsby-image"
+import Img from 'gatsby-image';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
