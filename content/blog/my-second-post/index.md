@@ -15,7 +15,7 @@ Glorify is going one step beyond other offerings, trying to build a complete onl
 
 Let’s see how they do that:
 
-
+<Slider/>
 ##### 1.  A habit-forming product
 
 To be on top of their category, a product must effectively fulfill user’s needs. In this case, users want help in developing a daily worship habit. Glorify is designed to foster that.

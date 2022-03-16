@@ -1,0 +1,39 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+img{
+  /* width: 80%!important; */
+  padding: 0 40px!important;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 500px;
+  height: 300px;
+}
+.swiper-button-prev::after{
+  padding: 4px 7px;
+}
+.swiper-button-next:after{
+  padding: 4px 10px;
+}
+.swiper-button-prev::after,.swiper-button-next:after {
+  font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #95c1ed;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}

@@ -1,27 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { graphql } from 'gatsby';
+import Img from "gatsby-image"
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
-import 'swiper/swiper-bundle.css';
-import '.styles.css';
+import { Navigation } from "swiper";
 
-function swiperslide () {
-    const slides = [];
-    for (let i = 0; i < 5; i += 1)     {
-      slides.push(
-        <SwiperSlide key={`slide-${i}`}>
-            <img 
-              src={"https://picsum.photos/id/${i+1}/500/300"}
-              alt={`Slide ${i}`}
-            />
+//css
+import "swiper/css";
+import "swiper/css/navigation";
+import '../sliderStyle.css'
+
+const SwiperSliderComponent = ({photos}) => {
+  const [slides, setSlides] = useState([])
+  useEffect(() => {
+    var newSlides = [];
+    newSlides = photos.edges.map(image => 
+        <SwiperSlide key={image.node.id}>
+            <Img 
+              fluid={image.node.childImageSharp.fluid}
+              alt={"ok"}
+              />
         </SwiperSlide>
-      );
-    }
+    )
+    setSlides(newSlides)
+    },[])
 
 return (
-    <React.Fragment>
-        <Swiper id="mainslider">{slides}</Swiper>
+  <React.Fragment>
+        <Swiper navigation={true} modules={[Navigation]} id="mainslider">{slides}</Swiper>
     </React.Fragment> 
     );
 }
 
-export default swiperslide;
+export default SwiperSliderComponent;

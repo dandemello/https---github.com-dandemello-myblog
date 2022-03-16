@@ -1,18 +1,23 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXProvider } from '@mdx-js/react'
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import SwiperSliderComponent from "../components/swiperslide"
 
-const BlogPostTemplate = ({ data, location }) => {
+const BlogPostTemplate = ({ data, location, ...q }) => {
   const post = data.mdx
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
+  const Slider = () => <SwiperSliderComponent photos={data.photos}/>
+
   return (
     <Layout location={location} title={siteTitle}>
+      {console.log(q)}
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -26,7 +31,9 @@ const BlogPostTemplate = ({ data, location }) => {
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <MDXProvider components={{Slider}}>
+          <MDXRenderer>{data.mdx.body}</MDXRenderer>
+        </MDXProvider>
         <hr />
         <footer>
         <script async data-uid="b21a83232b" src="https://marvelous-motivator-2323.ck.page/b21a83232b/index.js"></script>
@@ -99,6 +106,18 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+      }
+    } 
+    photos: allFile (filter: {relativeDirectory : {eq: "my-second-post"}, extension: {regex: "/(jpg)|(png)|(jpeg)/"}}){
+      edges {
+        node {
+          id
+          childImageSharp{
+            fluid{
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
