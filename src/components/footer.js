@@ -14,7 +14,6 @@ const Footer = () => {
     }
   `)
 
-  const author = data.site.siteMetadata?.author
   return (
     <footer>
       <div>
