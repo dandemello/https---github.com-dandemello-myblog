@@ -13,11 +13,14 @@ const BlogPostTemplate = ({ data, location, ...q }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
-  const Slider = () => <SwiperSliderComponent photos={data.photos}/>
+  const Slider = () => {
+    let photos = data.photos.edges.filter(photo=>('/'+photo.node.relativeDirectory)===q.uri)
+    return <SwiperSliderComponent
+      photos={photos} />
+  }
 
   return (
     <Layout location={location} title={siteTitle}>
-      {console.log(q)}
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -108,10 +111,11 @@ export const pageQuery = graphql`
         title
       }
     } 
-    photos: allFile (filter: {relativeDirectory : {eq: "my-second-post"}, extension: {regex: "/(jpg)|(png)|(jpeg)/"}}){
+    photos: allFile (filter: { extension: {regex: "/(jpg)|(png)|(jpeg)/"}}){
       edges {
         node {
           id
+          relativeDirectory
           childImageSharp{
             fluid{
               ...GatsbyImageSharpFluid

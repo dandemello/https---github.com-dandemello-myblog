@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import Img from "gatsby-image"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
@@ -15,9 +15,10 @@ const SwiperSliderComponent = ({photos}) => {
   const [slides, setSlides] = useState([])
   useEffect(() => {
     var newSlides = [];
-    newSlides = photos.edges.map(image => 
+    newSlides = photos.map(image => 
         <SwiperSlide key={image.node.id}>
-            <Img 
+        <Img 
+          className="slider-image-holder"
               fluid={image.node.childImageSharp.fluid}
               alt={"ok"}
               />

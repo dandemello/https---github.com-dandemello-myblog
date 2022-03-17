@@ -3,7 +3,7 @@ title: How Glorify is Digitalizing Worship
 date: "2022-03-09T23:46:37.121Z"
 ---
 
-Glorify is an app that helps Christians practice their faith and connect digitally. In 2021 they raised more than $42mm, mainly from behemoth VCs a16z and Softbank, as well as Hollywood stars such as Michael Ovitz, Jason Derulo and Michael Bublé. That’s a remarkable round for a company with less than 2 years of operation.
+Glorify is an app that helps Christians practice their faith and connect digitally. In 2021 they raised more than $42mm, mainly from behemoth VCs a16z and Softbank, as well as Hol lywood stars such as Michael Ovitz, Jason Derulo and Michael Bublé. That’s a remarkable round for a company with less than 2 years of operation.
 
 Although not religious myself, the app sparked my curiosity and I started exploring and trying to understand how they achieved such success.
 
@@ -16,7 +16,6 @@ Glorify is going one step beyond other offerings, trying to build a complete onl
 Let’s see how they do that:
 
 <Slider/>
-
 ##### 1.  A habit-forming product
 
 To be on top of their category, a product must effectively fulfill user’s needs. In this case, users want help in developing a daily worship habit. Glorify is designed to foster that.
