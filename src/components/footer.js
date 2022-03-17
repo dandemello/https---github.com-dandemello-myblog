@@ -1,5 +1,6 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import SubscriptionForm from "./sub-form.component"
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -18,6 +19,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
+        <SubscriptionForm />
         @dandemello, {new Date().getFullYear()}
       </div>      
     </footer>
