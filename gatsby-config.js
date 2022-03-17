@@ -28,6 +28,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://gmail.us14.list-manage.com/subscribe/post?u=89bb83e0ef4044f0539ef9eb5&amp;id=5134b86d71'
+      }
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         gatsbyRemarkPlugins: [
