@@ -31,7 +31,7 @@ const Button = props => (
       cursor: "pointer",
       color: "#E2E8F0",
       fontSize: "14px",
-      fontFamily: "sans-serif",
+      fontFamily: "IBM Plex Sans",
       lineHeight: "1",
     }}
     {...props}
@@ -55,7 +55,7 @@ const LanguageRibbon = props => (
       fontSize: "12px",
       textTransform: "uppercase",
       fontWeight: "500",
-      fontFamily: "sans-serif",
+      fontFamily: "IBM Plex Sans",
       lineHeight: "1",
     }}
   >
@@ -75,7 +75,7 @@ const FileRibbon = props => (
       fontSize: "13px",
       textTransform: "lowercase",
       fontWeight: "500",
-      fontFamily: "sans-serif",
+      fontFamily: "IBM Plex Sans",
       fontStyle: "italic",
       lineHeight: "1",
     }}

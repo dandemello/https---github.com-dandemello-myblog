@@ -16,6 +16,7 @@ Glorify is going one step beyond other offerings, trying to build a complete onl
 Let’s see how they do that:
 
 <Slider/>
+
 ##### 1.  A habit-forming product
 
 To be on top of their category, a product must effectively fulfill user’s needs. In this case, users want help in developing a daily worship habit. Glorify is designed to foster that.
@@ -42,7 +43,7 @@ Every aspect of this screen seems to be built for the user to come back everyday
 .
 The Hook model is one of the most known product building frameworks. If we analyze this page through that lens, here’s what we get:
 
-![heyoo](./1glory.png)
+![pic1](/2ndimages/1glorybody.png)
 
 Glorify follows it almost to the letter, I believe it was designed with that framework in mind. It is likely this design is a driver of consistent visits.
 
@@ -56,7 +57,7 @@ Although not sufficient for success, having an aesthetically pleasing and easy t
 
 In this case, the UI is seems to be carefully thought out to be easily navigated and processed, but they don’t limit themselves to that.
 
-![heyoo](./2glory.png)
+[imagehere]
 
 Easily identifiable icons with labels, clear/familiar font style and color choices that highlight the most important things makes navigation and understanding of the app easy. Their use of neomorphism is not overwhelming and makes it easy to identify buttons. 
 
@@ -64,19 +65,19 @@ On top of showing craftmanship through their main functionality, Glorify also pu
 
 ***Listening screen:*** 
 
-![heyoo](./3glory.png)
+[imagehere]
 
 This has a slight movement, as if you were moving forward on the sky. Small detail, but those add up.
 
 ***Prayers UI:***
 
-![heyoo](./4glory.png)
+[imagehere]
 
 One of their features let you record a prayer. Here’s the design:
 
 This was one of the most creative pieces of UI I’ve ever seen - once you put your fingers on the blue circles, a candle shows up, making it look like you’re holding a candle: 
 
-![heyoo](./5glory.png)
+[imagehere]
 
 Although I’m not sure how much people are willing to use this alone, it might be useful to group situations. All-in-all, it is just really creative and I was happy to see this. 
 
