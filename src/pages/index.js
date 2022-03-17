@@ -27,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
       <Bio />
-      <ol style={{ listStyle: `none` }}>
+       <ol style={{ listStyle: `none` }}>
 
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -60,8 +60,7 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
-      <script async data-uid="b21a83232b" src="https://marvelous-motivator-2323.ck.page/b21a83232b/index.js"></script>
-    </Layout>
+      </Layout>
   )
 }
 

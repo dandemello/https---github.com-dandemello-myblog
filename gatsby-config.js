@@ -3,7 +3,7 @@ module.exports = {
     title: `daniel's blog`,
     author: {
       name: `Daniel de Mello`,
-      summary: `who is from Brazil, lives and works in San Francisco building fun things.`,
+      summary: `. He is from Brazil, lives and works in San Francisco building fun things.`,
     },
     description: `daniel's blog`,
     siteUrl: `https://dandemello.blog`,

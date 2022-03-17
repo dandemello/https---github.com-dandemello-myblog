@@ -1,9 +1,10 @@
 ---
 title: How Glorify is Digitalizing Worship
 date: "2022-03-09T23:46:37.121Z"
+description: 🙏
 ---
 
-Glorify is an app that helps Christians practice their faith and connect digitally. In 2021 they raised more than $42mm, mainly from behemoth VCs a16z and Softbank, as well as Hol lywood stars such as Michael Ovitz, Jason Derulo and Michael Bublé. That’s a remarkable round for a company with less than 2 years of operation.
+Glorify is an app that helps Christians practice their faith and connect digitally. In 2021 they raised more than $42mm, mainly from behemoth VCs a16z and Softbank, as well as Hollywood stars such as Michael Ovitz, Jason Derulo and Michael Bublé. That’s a remarkable round for a company with less than 2 years of operation.
 
 Although not religious myself, the app sparked my curiosity and I started exploring and trying to understand how they achieved such success.
 
@@ -43,7 +44,7 @@ Every aspect of this screen seems to be built for the user to come back everyday
 .
 The Hook model is one of the most known product building frameworks. If we analyze this page through that lens, here’s what we get:
 
-![pic1](/2ndimages/1glorybody.png)
+![pic1](/#2bodyimages/1glorybody.png)
 
 Glorify follows it almost to the letter, I believe it was designed with that framework in mind. It is likely this design is a driver of consistent visits.
 

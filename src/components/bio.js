@@ -44,12 +44,10 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Hey! Welcome to my blog - I write about UX and Strategy.
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You can find him on Twitter.
-          </a>
-          {` `} I send my content through a newsletter, please subscribe! 
+          You can find me on <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a> or <a href={`https://www.linkedin.com/in/daniel-de-mello/`}>LinkedIn</a>
+          {` `}Subscribe to get my content on your inbox! 
         </p>    
         
       )}          
