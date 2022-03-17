@@ -1,6 +1,6 @@
 //In src/components/sub-form.component.js
 import React, { useState } from 'react';
-import Button from "../button/button.component";
+import Button from 'react';
 
 const SubscriptionForm = () => {
     const [status, setStatus] = useState(null);
