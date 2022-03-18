@@ -16,32 +16,30 @@ Glorify is going one step beyond other offerings, trying to build a complete onl
 
 Let’s see how they do that:
 
-<Slider/>
 
 ##### 1.  A habit-forming product
 
 To be on top of their category, a product must effectively fulfill user’s needs. In this case, users want help in developing a daily worship habit. Glorify is designed to foster that.
 Their main feature seems to be the Today screen: each week has a theme, and around this theme they offer daily content of 4 types:
 
-1 Daily quote, that you start having already completed it, giving an instant feeling of progress;
+**1.**  Daily quote, that you start having already completed it, giving an instant feeling of progress;
 
-2 	A passage of the bible;
+**2.**  A passage of the bible;
 
-3	A “devotional”, which is an interpretation of the passage you’ve just seen;
+**3.**  A “devotional”, which is an interpretation of the passage you’ve just seen;
 
-4	A reflection on that passage, going a little deeper.
+**4.**  A reflection on that passage, going a little deeper.
 
-Once you finish all 4, a stretch goal is unlocked, showing you more content related to the week’s theme.
+Once you finish all 4, a stretch goal is unlocked, showing you more content related to the week’s theme. Every aspect of this screen seems to be built for the user to come back everyday:
 
-Every aspect of this screen seems to be built for the user to come back everyday:
-•	You are rewarded just by opening the app since the entry screen is their “Daily Quote”, so it will be already checked when you see the page.
+● You are rewarded just by opening the app since the entry screen is their “Daily Quote”, so it will be already checked when you see the page.
 
-•	Tasks that are short to complete (1 to 3min).
+● Tasks that are short to complete (1 to 3min).
 
-•	Progress feedback is immediate - seeing the calendar fill up and the items being checked.
+● Progress feedback is immediate - seeing the calendar fill up and the items being checked.
 
-•	You get an additional reward (other than the streak) after completing all 4’s - a stretch goal opens, with different content
-.
+● You get an additional reward (other than the streak) after completing all 4’s - a stretch goal opens, with different content.
+
 The Hook model is one of the most known product building frameworks. If we analyze this page through that lens, here’s what we get:
 
 ![pic1](/#2bodyimages/1glorybody.png)
@@ -95,15 +93,16 @@ They also offer more than 30 different prayers and longer form videos with exper
 
 ##### **Conclusion**
 
-1 Consider using the Hook Model when designing, and you can create a product that users are compelled to frequently come back. 
+**1.**  Consider using the Hook Model when designing, and you can create a product that users are compelled to frequently come back; 
 
-2 Aesthetics alone doesn’t make a good product, but it can take a good product to another level.
+**2.**  Aesthetics alone doesn’t make a good product, but it can take a good product to another level;
 
-3 Think long-term and start building unique experiences (in this case, content) since day one. 
-
+**3.**  Think long-term and start building unique experiences (in this case, content) since day one. 
 
 Glorify is a great product in an huge market, so I expect them to reach at least the Calm app’s current size. 
 
 Although the design is overall great, there are some points I would change to make it better. I made a more complete product breakdown on my blog, feel free to check it out!
 
 Thanks for reading!
+
+<Slider/>

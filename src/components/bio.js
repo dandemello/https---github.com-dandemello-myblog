@@ -47,7 +47,7 @@ const Bio = () => {
           Hey! Welcome to my blog - I write about UX and Strategy.
           {` `}
           You can find me on <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a> or <a href={`https://www.linkedin.com/in/daniel-de-mello/`}>LinkedIn</a>
-          {` `}Subscribe to get my content on your inbox! 
+          .{` `}Subscribe to get my content on your inbox! 
         </p>    
       )}          
     </div>
