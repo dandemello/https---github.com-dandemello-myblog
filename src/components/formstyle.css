@@ -33,13 +33,13 @@ align-self: center;
   .subscribe-email{
     text-align: left;
     height: 35px;
-    width: 40%;
+    width: 50%;
   }
 
   button{
     margin-left: 10px;
     height: 35px;
-    width: 10%;
+    width: 100px;
     padding: 5 20;
   }
 
