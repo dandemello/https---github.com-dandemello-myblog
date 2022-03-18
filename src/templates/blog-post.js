@@ -110,7 +110,10 @@ export const pageQuery = graphql`
         title
       }
     } 
-    photos: allFile (filter: { extension: {regex: "/(jpg)|(png)|(jpeg)/"}}){
+    photos: allFile (
+      filter: { extension: {regex: "/(jpg)|(png)|(jpeg)/"}}
+      sort: { fields: name, order: ASC }
+      ){
       edges {
         node {
           id
