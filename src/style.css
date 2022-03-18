@@ -339,3 +339,9 @@ a:focus {
     list-style-position: inside;
   }
 }
+
+
+.danmello{
+  text-align: center;
+  margin-top: 16px;
+}

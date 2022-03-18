@@ -1,5 +1,6 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import Newsletter from "./newsletter"
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -16,7 +17,8 @@ const Footer = () => {
 
   return (
     <footer>
-      <div>
+      <Newsletter />
+      <div className="danmello">
           @dandemello, {new Date().getFullYear()}
       </div>      
     </footer>
