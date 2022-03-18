@@ -43,7 +43,7 @@ class Newsletter extends React.Component {
                     <button className="btn_send" type="submit">Subscribe</button>
                 </form>
             </div>                         
-        </div>              
+        </div> 
         </>
         )
     }
