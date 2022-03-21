@@ -15,7 +15,7 @@ Glorify is going one step beyond other offerings, trying to build a complete onl
 
 <Slider/>
 
-##### For a more structured look read the article!
+##### For a more structured look, read the article!
 
 ##### 1.  A habit-forming product
 
@@ -56,13 +56,14 @@ Easily identifiable icons with labels, clear/familiar font style and color choic
 This has a slight movement, as if you were moving forward on the sky. Small detail, but those add up.
 
 ***Prayers UI:***
+One of their features let you record a prayer. Here’s the design:
 ![pic4](./glorifybodyimages/4glorybody.png)
 
-One of their features let you record a prayer. Here’s the design:
+Once you put your fingers on the blue circles, a candle shows up, making it look like you’re holding a candle.
 
 ![pic5](./glorifybodyimages/5glorybody.png)
 
-This was one of the most creative pieces of UI I’ve ever seen - once you put your fingers on the blue circles, a candle shows up, making it look like you’re holding a candle. Although I’m not sure how much people are willing to use this alone, it might be useful to group situations. All-in-all, it is just really creative and I was happy to see this. 
+This was one of the most creative pieces of UI I’ve ever seen. Although I’m not sure how much people are willing to use this alone, it might be useful to group situations. All-in-all, it is just really creative and I was happy to see this. 
 
 ##### 3. **Exclusive Content is King**
 
@@ -80,7 +81,7 @@ They also offer more than 30 different prayers and longer form videos with exper
 
 **3.**  Think long-term and start building unique experiences (in this case, content) since day one. 
 
-Glorify is a great product in an huge market, so I expect them to reach at least the Calm app’s current size. 
+Glorify is a great product in a huge market, so I expect them to reach at least the Calm app’s current size. 
 
 Although the design is overall great, there are some points I would change to make it better. I made a more complete product breakdown on my blog, feel free to check it out!
 
