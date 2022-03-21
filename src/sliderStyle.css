@@ -2,7 +2,7 @@
 html,
 body {
   position: relative;
-  height: 100%;
+  height: 90%;
 }
 
 
@@ -18,13 +18,14 @@ body {
 /* Style the image in silder */
 .slider-image-holder img{
   /* width: 80%!important; */
-  padding: 0 40px!important;
+  width: 90%;
+
 }
 
 /* Style the slider */
 .swiper {
-  width: 720px;
-  height: 600px;
+  width: 90%;
+  height: 90%;
 }
 .swiper-button-prev::after{
   padding: 4px 7px;
@@ -35,8 +36,14 @@ body {
 .swiper-button-prev::after,.swiper-button-next:after {
   font-size: 18px;
     font-weight: 700;
-    border: 1px solid #95c1ed;
+    border: 1px solid rgba(188, 215, 250);;
+    color:#3793ee; 
     height: 28px;
     width: 28px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
+
+.swiperslide{
+  padding: 10px;
+}
+

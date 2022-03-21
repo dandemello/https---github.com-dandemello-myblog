@@ -5,18 +5,21 @@ import Img from "gatsby-image"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
 import { Navigation } from "swiper";
+import { Pagination } from "swiper";
 
 //css
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 import '../sliderStyle.css'
+
 
 const SwiperSliderComponent = ({photos}) => {
   const [slides, setSlides] = useState([])
   useEffect(() => {
     var newSlides = [];
     newSlides = photos.map(image => 
-        <SwiperSlide key={image.node.id}>
+        <SwiperSlide key={image.node.id} className="swiperslide">
         <Img 
           className="slider-image-holder"
               fluid={image.node.childImageSharp.fluid}
@@ -29,7 +32,7 @@ const SwiperSliderComponent = ({photos}) => {
 
 return (
   <React.Fragment>
-        <Swiper navigation={true} modules={[Navigation]} id="mainslider">{slides}</Swiper>
+        <Swiper navigation={true} pagination={{type: "progressbar",}} modules={[Navigation, Pagination]} id="mainslider">{slides}</Swiper>
     </React.Fragment> 
     );
 }
