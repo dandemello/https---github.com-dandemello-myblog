@@ -87,3 +87,5 @@ Although the design is overall great, there are some points I would change to ma
 
 Thanks for reading!
 
+This case study was inspired by @PeteRamsey's work at https://builtformars.com/.
+
