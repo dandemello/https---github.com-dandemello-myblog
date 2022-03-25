@@ -38,7 +38,6 @@ const BlogPostTemplate = ({ data, location, ...q }) => {
         </MDXProvider>
         <hr />
         <footer>
-        <script async data-uid="b21a83232b" src="https://marvelous-motivator-2323.ck.page/b21a83232b/index.js"></script>
         </footer>
       </article>
       <nav className="blog-post-nav">
