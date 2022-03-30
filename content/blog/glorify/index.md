@@ -83,8 +83,6 @@ They also offer more than 30 different prayers and longer form videos with exper
 
 Glorify is a great product in a huge market, so I expect them to reach something close to Calm app’s current size. 
 
-Although the design is overall great, there are some points I would change to make it better. I made a more complete product breakdown on my blog, feel free to check it out!
-
 Thanks for reading!
 
 This case study was inspired by @PeteRamsey's work at https://builtformars.com/.
