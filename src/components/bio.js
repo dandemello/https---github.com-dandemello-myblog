@@ -44,9 +44,9 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Hey! Welcome to my blog - I write Product Design cases here.
+          Hey! Welcome to my blog. I use this space mainly write Product Design cases.
           {` `}
-          You can find me on <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a> or <a href={`https://www.linkedin.com/in/daniel-de-mello/`}>LinkedIn</a>
+          You can also find me on <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a> or <a href={`https://www.linkedin.com/in/daniel-de-mello/`}>LinkedIn</a>
           .{` `}Subscribe to get my content on your inbox! 
         </p>    
       )}          
