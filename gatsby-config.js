@@ -121,7 +121,7 @@ module.exports = {
         name: `daniel's blog`,
         short_name: `dansblog`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#fffefc`,
         theme_color: `#1871ed`,
         display: `minimal-ui`,
         icon: `src/images/rocket-microsoft.png`, // This path is relative to the root of the site.
