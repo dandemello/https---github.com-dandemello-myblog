@@ -13,8 +13,8 @@ One of those options is Berkeley-based Peet's Coffee, a west-coast focused chain
 If there's no comparison in terms of company size (Starbucks has at least 12x Peet's units in California), those companies go head-to-head in terms of mobile experience: Peets Coffee has a 4.9 rating on Apple Store compared to Starbuck's 4.8.
 From a superficial Job-to-be-done perspective, their digital product aims to help users with: 
 
-● Ordering with less friction.  
-● Giving them access to shop's rewards program.  
+**1.** Ordering with less friction.  
+**2.** Giving them access to shop's rewards program.  
 
 We will analyze each digital product mainly (but not exclusively) in light of those 2 angles.  
 
