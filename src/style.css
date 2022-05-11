@@ -118,7 +118,6 @@ h6 {
 }
 
 h1 {
-  font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-5);
   color: var(--color-heading-black);
 }
@@ -256,8 +255,11 @@ a:focus {
 }
 
 .main-heading {
+  font-weight: var(--fontWeight-bold);
+  font-family: var(--font-heading);
+  text-decoration: none;
   font-size: var(--fontSize-5);
-  margin: 0;
+  color: var(--color-text);
 }
 
 .post-list-item {
