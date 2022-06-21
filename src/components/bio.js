@@ -46,7 +46,7 @@ const Bio = () => {
         <p>
           Hey, I'm Daniel! I use this space to post my product analysis.
           {` `}
-          You can also find me on <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a> or <a href={`https://www.linkedin.com/in/daniel-de-mello/`}>LinkedIn</a>
+          You can also find me on <a href={`https://www.linkedin.com/in/daniel-de-mello/`}>LinkedIn</a>
           .{` `} 
         </p>    
       )}          
